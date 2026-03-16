@@ -5,8 +5,8 @@ import pandas as pd
 import io
 
 # ===================== 万邦1688 API 配置 =====================
-ONEBOUND_KEY = "t9128954480"
-ONEBOUND_SECRET = "4480ca0a"
+ONEBOUND_KEY = st.secrets["ONEBOUND_KEY"]
+ONEBOUND_SECRET = st.secrets["ONEBOUND_SECRET"]
 
 # ===================== 亚马逊品类佣金表 =====================
 CATEGORY_REFERRAL = {
